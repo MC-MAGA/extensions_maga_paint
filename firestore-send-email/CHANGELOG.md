@@ -1,3 +1,15 @@
+## Version 0.1.34
+
+fixed - SendGrid v3 issues (#2020)
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+## Version 0.1.33
+
+fixed - fix issue with sendgrid fields
+
+fixed - fix vulnerabilities and update dependencies
+
 ## Version 0.1.32
 
 feature - added support for SendGrid dynamic templates

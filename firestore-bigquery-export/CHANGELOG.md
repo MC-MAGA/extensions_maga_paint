@@ -1,8 +1,68 @@
+## Version 0.1.56
+
+feat - improve sync strategy by immediately writing to BQ, and using cloud tasks only as a last resort
+
+refactor - improve observability/logging of events
+
+chore - remove legacy backfill code
+
+fix - improved usage of the types from change tracker package
+
+feat - remove log failed exports param
+
+## Version 0.1.55
+
+feat - log failed queued tasks
+
+## Version 0.1.54
+
+fixed - bump changetracker and fix more vulnerabilities
+
+## Version 0.1.53
+
+fixed - bump changetracker to fix npm vulnerabilities
+
+## Version 0.1.52
+
+fixed - bump changetracker to fix npm vulnerabilities
+
+## Version 0.1.51
+
+fixed - medium npm vulnerabilities
+
+fixed - rollback broken multiple database parameter option
+
+## Version 0.1.50
+
+fixed - fixed timestamp as a fieldname partitioning
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+fixed - separate tsconfigs (#2065)
+
+fixed - resolve npm vulnerabilities (#2050)
+
+## Version 0.1.49
+
+fix - fix the issue "not creating table on install"
+
+## Version 0.1.48
+
+fix - fix the error "no resource found for `fsimportexistingdocs`"
+
+## Version 0.1.47
+
+fix - temporarily disable backfill feature
+
 ## Version 0.1.46
 
-fix - cloud task location in the BigQuery export extension
+feature - add the ability to select Firestore database instance
 
-docs - remove mention of bigquery updating on import
+fix - specify Cloud Task task retry config in `extension.yaml`
+
+fix - specify the location in the `fsimportexistingdocs` Cloud Task
+
+docs - fix typos, remove mention of BigQuery updating on import
 
 ## Version 0.1.45
 

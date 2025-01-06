@@ -1,3 +1,29 @@
+## Version 0.1.21
+
+feat - update docs and config setup for AI Translations with Gemini
+
+docs - add disclaimer about prompt injection
+
+## Version 0.1.20
+
+feat - add optional Gemini translations powered by Firebase Genkit
+
+## Version 0.1.19
+
+fixed - bump dependencies, fix vulnerabilities
+
+## Version 0.1.18
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+## Version 0.1.17
+
+fixed - updated vulnerable dependencies
+
+## Version 0.1.16
+
+fix - temporarily disable backfill feature
+
 ## Version 0.1.15
 
 fix - handle array values correctly in backfill

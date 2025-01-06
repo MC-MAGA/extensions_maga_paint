@@ -1,3 +1,15 @@
+## Version 0.1.17
+
+fixed - bump dependencies, fix vulnerabilities
+
+## Version 0.1.16
+
+fixed - bump dependencies, fix vulnerabilities (#2061)
+
+## Version 0.1.15
+
+fixed - updated vulnerable dependencies
+
 ## Version 0.1.14
 
 feature - add optional custom events

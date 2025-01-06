@@ -37,6 +37,7 @@ jest.mock("firebase-admin/functions", () => ({
 }));
 
 jest.mock("../src/logs", () => ({
+  ...jest.requireActual("../src/logs"),
   start: jest.fn(() =>
     logger.log("Started execution of extension with configuration", config)
   ),
@@ -71,7 +72,7 @@ describe("extension", () => {
   });
 
   test("functions are exported", () => {
-    const exportedFunctions = jest.requireActual("../src");
+    const exportedFunctions: any = jest.requireActual("../src");
     expect(exportedFunctions.fsexportbigquery).toBeInstanceOf(Function);
   });
 
